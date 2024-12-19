@@ -1,0 +1,106 @@
+/* Estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f6f0ff; /* Fundo lilás claro */
+    color: #4b2d7f; /* Texto roxo escuro */
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6a4c9c; /* Roxo médio */
+    color: white;
+    padding: 30px 0;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção principal */
+main {
+    margin-top: 20px;
+}
+
+/* Seção "Sobre Mim" */
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Sombra mais forte ao passar o mouse */
+}
+
+section h2 {
+    color: #6a4c9c; /* Roxo médio para os subtítulos */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #6a3b91; /* Roxo claro para o texto */
+    line-height: 1.8;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #6a4c9c; /* Roxo médio */
+    color: white;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+header-image {
+    width: 20px; /* Diminui o tamanho da imagem */
+    height: auto;
+    border-radius: 50%; /* Bordas arredondadas (opcional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve */
